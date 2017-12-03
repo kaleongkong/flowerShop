@@ -1,0 +1,17 @@
+.navBarContainer{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+.navBar{
+  position: relative;
+  width: 100%;
+}
+.navItem{
+  position: relative;
+  display: inline-block;
+  margin-left: 10%;
+  margin-right: 10%;
+  cursor: pointer;
+}

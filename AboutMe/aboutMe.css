@@ -1,0 +1,78 @@
+* {
+  /*border: 1px solid black;*/
+}
+
+.aboutMeContainer {
+  width: 98%;
+  height: 98%;
+  margin: 1%;
+  min-height: 500px;
+  min-width: 700px;
+  /* horizontally align aboutMeInnerContainer to the center*/
+  text-align: center;
+}
+
+.aboutMeInnerContainer{
+  width: 700px;
+  height: 500px;
+  /* vertically align itself to the center*/
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  /* horizontally align itself to the center*/
+  display: inline-block;
+}
+
+.aboutMeContentContainer{
+  width: 300px;
+  height: 450px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 2%;
+  margin-right: 2%;
+  display: inline-block;
+  /* align two div on the same row*/
+  float: left;
+}
+
+.aboutMePhotoContainer {
+  width: 90%;
+  height: 94%;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.aboutMeContentTitle {
+  width: 90%;
+  height: 15%;
+  margin-left: 5%;
+  margin-top: 5%;
+  text-transform: uppercase;
+}
+
+.aboutMeContentContent {
+  width: 90%;
+  height: 75%;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.aboutMeSpan {
+  height: 100%;
+  display: inline-flex;
+  align-items: center;
+}
+
+.aboutMePhoto {
+  /*height: 100%;*/
+  /* vertically align itself to the center*/
+/*  position: relative;
+  left: 50%;
+  transform: translateX(-50%);*/
+  width: 100%;
+  /* vertically align itself to the center*/
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}

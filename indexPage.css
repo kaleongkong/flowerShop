@@ -50,3 +50,7 @@
 .inventoryViewContainer {
   text-align: left;
 }
+
+.aboutMeContainer {
+  display: block;
+}

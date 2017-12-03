@@ -18,7 +18,8 @@
   /* vertically align itself to the center*/
   position: relative;
   top: 50%;
-  transform: translateY(-50%);
+  /*transform: translateY(-50%);*/
+  transform: translateY(30%);
   /* horizontally align itself to the center*/
   display: inline-block;
 }

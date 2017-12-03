@@ -32,14 +32,19 @@
 
 .inventorySection {
   clear: both;
+  height: 100%;
   /*text-align: center;*/
 }
 
 .inventoryListContainer {
-  width: 70%;
-  min-width: 700px;
+  width: 90%;
+  /*min-width: 700px;*/
   display: inline-block;
   float: left;
+  /* horizontally align itself to the center*/
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .inventoryViewContainer {

@@ -1,0 +1,47 @@
+* {
+  /*border: 1px solid black;*/
+}
+
+.mainPageContainer {
+  width: 98%;
+  height: 98%;
+  margin: 1%;
+  min-height: 500px;
+  min-width: 700px;
+  /* horizontally align aboutMeInnerContainer to the center*/
+  text-align: center;
+}
+
+.mainPageBg {
+  width: 70%;
+  max-width: 900px;
+  /* vertically align itself to the center*/
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  /* horizontally align itself to the center*/
+  display: inline-block;
+}
+
+.header {
+  position: absolute;
+  width: 100%;
+  top: 5%;
+  min-width: 700px;
+}
+
+.inventorySection {
+  clear: both;
+  /*text-align: center;*/
+}
+
+.inventoryListContainer {
+  width: 70%;
+  min-width: 700px;
+  display: inline-block;
+  float: left;
+}
+
+.inventoryViewContainer {
+  text-align: left;
+}

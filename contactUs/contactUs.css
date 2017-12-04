@@ -1,0 +1,102 @@
+* {
+  border: 1px solid black;
+  position: relative;
+  display: inline-block;
+}
+
+.contactUsContainer {
+  width: 700;
+  height: 500;
+}
+
+.emailUsContainer {
+  width: 73%;
+  height: 100%;
+}
+
+.generalInfoContainer {
+  width: 25%;
+  height: 100%;
+}
+
+.generalInfoCell {
+  width: 100%;
+  height: 15%;
+}
+
+.generalInfoCellTitle {
+  width: 100%;
+  height: 49%;
+  transform: translateY(50%);
+}
+
+.generalInfoCellContent {
+  width: 100%;
+  height: 49%;
+}
+
+.generalInfoSocialMedia {
+  width: 100%;
+  height: 30%;
+}
+
+.generalInfoRestSection {
+  width: 100%;
+  height: 25%;
+}
+
+.emailUsTitle {
+  width: 100%;
+  height: 10%;
+}
+
+.emailUsIntro {
+  width: 100%;
+  height: 25%;
+}
+
+.emailUsEmailSection {
+  width: 100%;
+  height: 50%;
+}
+
+.emailUsRestSection {
+  width: 100%;
+  height: 15%;
+}
+
+.emailUsEmailDiv1 {
+  width: 100%;
+  height: 35%;
+}
+
+.emailUsEmailDiv2 {
+  width: 100%;
+  height: 90%;
+  /*position: relative;
+  display: inline-block;*/
+}
+
+.emailUsMessageInput {
+  width: 100%;
+  height: 70%;
+}
+
+.emailUsSendButton {
+  width: 100%;
+  height: 20%;
+}
+
+.emailUsNameInput {
+  width: 49%;
+  height: 100%;
+  /*position: relative;
+  display: inline-block;*/
+}
+
+.emailUsEmailInput {
+  width: 49%;
+  height: 100%;
+  /*position: relative;
+  display: inline-block;*/
+}

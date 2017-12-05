@@ -82,9 +82,29 @@
   height: 70%;
 }
 
-.emailUsSendButton {
+.emailUsMessageTitle {
+  width: 100%;
+  height: 19%;
+  transform: translateY(30%);
+}
+
+.emailUsMessageContent {
+  width: 100%;
+  height: 79%;
+}
+
+.emailUsTextArea {
+  width: 99%;
+  height: 99%;
+}
+
+.emailUsSendButtonContainer {
   width: 100%;
   height: 20%;
+}
+
+.emailUsSendButton {
+  
 }
 
 .emailUsNameInput {

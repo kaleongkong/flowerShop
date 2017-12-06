@@ -5,23 +5,25 @@
 }
 
 .contactUsContainer {
-  width: 700;
+  width: 800;
   height: 500;
 }
 
 .emailUsContainer {
-  width: 70%;
+  width: 67%;
   height: 100%;
+  padding: 2.5%;
 }
 
-.marginContainer {
+/*.marginContainer {
   width: 6%;
   height: 100%;
-}
+}*/
 
 .generalInfoContainer {
   width: 20%;
   height: 100%;
+  padding: 2.5%;
 }
 
 .generalInfoCell {
@@ -115,7 +117,7 @@
 .emailUsSendButton {
   z-index: 1;
   top: 10px;
-  
+
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;

@@ -94,6 +94,16 @@
   display: inline-block;*/
 }
 
+.div1InputTitle {
+  width:100%;
+  height: 49%;
+}
+
+.div1TextArea {
+  width:100%;
+  height: 49%;
+}
+
 .emailUsEmailInput {
   width: 49%;
   height: 100%;

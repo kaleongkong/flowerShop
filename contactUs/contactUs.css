@@ -5,7 +5,7 @@
 }
 
 .contactUsContainer {
-  width: 800;
+  width: 750;
   height: 500;
 }
 
@@ -24,6 +24,7 @@
   width: 20%;
   height: 100%;
   padding: 2.5%;
+  background: white url(./corgi-128.png) repeat;
 }
 
 .generalInfoCell {
@@ -125,6 +126,10 @@
   width: 100%;
   height: 20%;
   text-align: right;
+}
+
+.emailUsSendButton:focus {
+    outline: none;
 }
 
 .emailUsSendButton {

@@ -1,6 +1,5 @@
 /**
 4. social media icon.
-5. background on the general info section.
 */
 
 window.onload = function(){

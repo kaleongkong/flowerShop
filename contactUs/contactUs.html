@@ -1,4 +1,7 @@
 <link rel="stylesheet" type="text/css" href="contactUs.css">
+<script src="contactUs.js"></script>
+<!-- https://www.webdesignerdepot.com/2013/03/20-excellent-contact-pages/ -->
+<div class='contactUsBoundary shadow'>
 <div class='contactUsContainer'>
   <div class='emailUsContainer'>
     <div class='emailUsTitle'>
@@ -10,24 +13,47 @@
     <div class='emailUsEmailSection'>
       <div class='emailUsEmailDiv1'>
         <div class='emailUsNameInput'>
+          <div class='div1InputTitle'>
+            NAME: <span class='spanAsterisk'> * </span>
+          </div>
+          <div class='div1TextArea'>
+            <textarea rows='1' class='emailUsTextArea div1EmailUsTextArea'></textarea>
+          </div>
+        </div>
+        <div class='emailUsEmailInputMargin'>
         </div>
         <div class='emailUsEmailInput'>
+          <div class='div1InputTitle'>
+            EMAIL: <span class='spanAsterisk'> * </span>
+          </div>
+          <div class='div1TextArea'>
+            <textarea rows='1' class='emailUsTextArea div1EmailUsTextArea'></textarea>
+          </div>
         </div>
       </div>
       <div class='emailUsEmailDiv2'>
         <div class='emailUsMessageInput'>
+          <div class='emailUsMessageTitle'>
+            MESSAGE: <span class='spanAsterisk'> * </span>
+          </div>
+          <div class='emailUsMessageContent'>
+            <textarea class='emailUsTextArea div2EmailUsTextArea'></textarea>
+          </div>
         </div>
-        <div class='emailUsSendButton'>
+        <div class='emailUsSendButtonContainer'>
+          <button type="button" class='emailUsSendButton'> SEND </button>
         </div>
       </div>
     </div>
     <div class='emailUsRestSection'>
     </div>
   </div>
+  <div class='marginContainer'>
+  </div>
   <div class='generalInfoContainer'>
     <div class='generalInfoCell'>
       <div class='generalInfoCellTitle'>
-        Email:
+        Email
       </div>
       <div class='generalInfoCellContent'>
         lorem@gmail.com
@@ -35,23 +61,28 @@
     </div>
     <div class='generalInfoCell'>
       <div class='generalInfoCellTitle'>
-        Telephone:
+        Telephone
       </div>
       <div class='generalInfoCellContent'>
-        (000) 000-0000
+        +1 000 000-0000
       </div>
     </div>
     <div class='generalInfoCell'>
       <div class='generalInfoCellTitle'>
-        WeChat:
+        WeChat
       </div>
       <div class='generalInfoCellContent'>
         lorem
       </div>
     </div>
     <div class='generalInfoSocialMedia'>
+      <div style='padding-top: 20%; width: 100%'>
+        <img style='padding:2%;' src='fb.svg'>
+        <img style='padding:2%;' src='wechat.svg'>
+      </div>
     </div>
     <div class='generalInfoRestSection'>
     </div>
   </div>
+</div>
 </div>

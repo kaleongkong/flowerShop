@@ -1,22 +1,44 @@
 * {
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   position: relative;
   display: inline-block;
 }
 
+.shadow {
+  -webkit-box-shadow: 3px 3px 4px 3px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    3px 3px 4px 3px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         3px 3px 4px 3px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+.contactUsBoundary {
+  width: 750;
+  height: 550;
+  top: 30%;
+  left: 30%;
+}
+
 .contactUsContainer {
-  width: 700;
+  width: 750;
   height: 500;
 }
 
 .emailUsContainer {
-  width: 73%;
+  width: 67%;
   height: 100%;
+  padding: 2.5%;
 }
 
-.generalInfoContainer {
-  width: 25%;
+/*.marginContainer {
+  width: 6%;
   height: 100%;
+}*/
+
+.generalInfoContainer {
+  width: 20%;
+  height: 100%;
+  padding: 2.5%;
+  background: white url(./corgi.svg);
+  background-repeat: space;
 }
 
 .generalInfoCell {
@@ -28,6 +50,8 @@
   width: 100%;
   height: 49%;
   transform: translateY(50%);
+  color: rgb(229,75,69);
+  background: white;
 }
 
 .generalInfoCellContent {
@@ -48,6 +72,8 @@
 .emailUsTitle {
   width: 100%;
   height: 10%;
+  font-size: 30px;
+  color: rgb(30,65,90);
 }
 
 .emailUsIntro {
@@ -80,23 +106,117 @@
 .emailUsMessageInput {
   width: 100%;
   height: 70%;
+  padding-top: 3%;
+}
+
+.emailUsMessageTitle {
+  width: 100%;
+  height: 19%;
+  transform: translateY(30%);
+}
+
+.emailUsMessageContent {
+  width: 100%;
+  height: 79%;
+}
+
+.emailUsTextArea {
+  width: 99%;
+  font-size: 16px;
+  padding: 1%;
+  border-radius: 4px;
+  box-shadow: 0 0 0 1px lightslategrey;
+  border: 5px solid transparent;
+}
+
+.div1EmailUsTextArea {
+  resize: none;
+}
+
+.div2EmailUsTextArea {
+  height: 99%;
+}
+
+.emailUsSendButtonContainer {
+  width: 100%;
+  height: 20%;
+  text-align: right;
+}
+
+.emailUsSendButton:focus {
+  outline: none;
 }
 
 .emailUsSendButton {
-  width: 100%;
-  height: 20%;
+  z-index: 1;
+  top: 10px;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  white-space: nowrap;
+  position: relative;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  zoom: 1;
+  font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: white;
+  background-color: #e8554e;
+  cursor: pointer;
+  border-bottom: 5px solid #9a3834;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-transition: none 125ms ease-out;
+  -webkit-transition-delay: 0;
+  -moz-transition: none 125ms ease-out 0;
+  -o-transition: none 125ms ease-out 0;
+  transition: none 125ms ease-out 0;
+  -webkit-transition-property: background-color, color;
+  -moz-transition-property: background-color, color;
+  -o-transition-property: background-color, color;
+  transition-property: background-color, color;
+  padding: 10px 55px;
 }
 
 .emailUsNameInput {
-  width: 49%;
+  width: 44%;
   height: 100%;
   /*position: relative;
   display: inline-block;*/
 }
 
+.div1InputTitle {
+  width:100%;
+  height: 49%;
+  transform: translateY(55%);
+}
+
+.spanAsterisk {
+  color:rgb(229,75,69);
+}
+
+.div1TextArea {
+  width:100%;
+  height: 49%;
+}
+
 .emailUsEmailInput {
-  width: 49%;
+  width: 44%;
   height: 100%;
   /*position: relative;
   display: inline-block;*/
+}
+
+.emailUsEmailInputMargin {
+  width: 10%;
+  height: 100%;
 }

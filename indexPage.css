@@ -13,7 +13,7 @@
 }
 
 .mainPageBg {
-  width: 70%;
+  width: 50%;
   max-width: 900px;
   /* vertically align itself to the center*/
   position: relative;
@@ -37,7 +37,7 @@
 }
 
 .inventoryListContainer {
-  width: 90%;
+  width: 100%;
   /*min-width: 700px;*/
   display: inline-block;
   float: left;

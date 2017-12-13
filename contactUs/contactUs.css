@@ -11,8 +11,6 @@
 .contactUsBoundary {
   width: 750;
   height: 550;
-  top: 30%;
-  left: 30%;
   position: relative;
   display: inline-block;
 }

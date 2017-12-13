@@ -52,5 +52,15 @@
 }
 
 .aboutMeContainer {
-  display: block;
+  position: relative;
+}
+
+.aboutMeInnerContainer {
+  position: relative;
+  top: 100px;
+}
+
+.contactUsSection {
+  position: relative;
+  text-align: center;
 }

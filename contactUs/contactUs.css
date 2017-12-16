@@ -10,14 +10,15 @@
 
 .contactUsBoundary {
   width: 750;
-  height: 550;
+  height: 500;
   position: relative;
   display: inline-block;
+  text-align: left;
 }
 
 .contactUsContainer {
   width: 750;
-  height: 500;
+  height: 450;
   position: relative;
   display: inline-block;
 }

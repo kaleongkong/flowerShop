@@ -19,4 +19,5 @@ function resizeinventoryListContainer() {
   var expectingInventoryListContainerWidth = Math.floor(inventoryListContainerWidth/inventoryContainerWidth) * inventoryContainerWidth;
   inventoryListContainer.style.width = expectingInventoryListContainerWidth;
   inventoryListContainer.style.height = Math.ceil(inventoryContainers.length / (expectingInventoryListContainerWidth / inventoryContainerWidth)) * inventoryContainerHeight;
+  document.getElementsByClassName('inventorySection')[0].style.height = parseInt(inventoryListContainer.style.height) + 200;
 }

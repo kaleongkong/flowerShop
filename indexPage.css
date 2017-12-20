@@ -66,3 +66,14 @@
   padding-top: 150px;
   padding-bottom: 150px;
 }
+
+#copyright, #copyright a {
+    color: #f0f0f0;
+    font-size: 12px;
+    text-align: center;
+}
+
+#copyright {
+    background: #222;
+    padding: 8px 0;
+}

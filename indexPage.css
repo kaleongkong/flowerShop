@@ -4,12 +4,11 @@
 
 .mainPageContainer {
   width: 98%;
-  height: 98%;
+  /*height: 98%;*/
   margin: 1%;
-  min-height: 500px;
-  min-width: 700px;
-  /* horizontally align aboutMeInnerContainer to the center*/
+  /*min-height: 500px;*/
   text-align: center;
+  /* horizontally align aboutMeInnerContainer to the center*/
 }
 
 .mainPageBg {
@@ -17,10 +16,12 @@
   max-width: 900px;
   /* vertically align itself to the center*/
   position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+  padding-top: 10%;
   /* horizontally align itself to the center*/
   display: inline-block;
+  text-align: center;
+  min-width: 500px;
+  max-width: 800px;
 }
 
 .header {
@@ -63,7 +64,7 @@
 .contactUsSection {
   position: relative;
   text-align: center;
-  padding-top: 150px;
+  /*padding-top: 150px;*/
   padding-bottom: 150px;
 }
 
@@ -74,6 +75,9 @@
 }
 
 #copyright {
-    background: #222;
-    padding: 8px 0;
+  background: #222;
+  padding: 8px 0;
+  position: absolute;
+  right: 0px;
+  width: 100%;
 }

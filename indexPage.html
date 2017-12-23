@@ -36,42 +36,15 @@
   <img class = 'mainPageBg' src = 'bg.gif'>
 </div>
 
-<div>
-  <section class="scrollButton demo">
-    <a href="#aboutMeContainer"><span></span>Scroll</a>
-  </section>
-</div>
-
-
-<div id = 'aboutMeContainer' class = 'aboutMeContainer'>
-    <div class = 'aboutMeInnerContainer'>
-      <div class = 'aboutMeContentContainer'>
-        <div class = 'aboutMePhotoContainer'>
-          <img class = 'aboutMePhoto' src="AboutMe/placeholder.jpg">
-        </div>
-      </div>
-      <div class = 'aboutMeContentContainer'>
-        <div class = 'aboutMeContentTitle'>
-          <span class = 'aboutMeSpan'> Lorem ipsum </span>
-        </div>
-        <div class = 'aboutMeContentContent'>
-          <span class = 'aboutMeSpan'>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed nisi mauris. Donec mollis nunc eget purus auctor, vitae pulvinar lectus molestie. Pellentesque eget malesuada neque. Nam eu sapien id orci luctus elementum. Vivamus malesuada tortor et molestie bibendum. Nullam nisi quam, pellentesque nec lectus at, placerat rutrum neque. Nam dignissim consectetur eros, nec ullamcorper leo lobortis viverra. Aliquam mollis erat ac eros tincidunt eleifend. Phasellus fermentum neque vitae eros suscipit, at placerat erat fermentum.
-          </span>
-        </div>
-      </div>
-    </div>
-</div>
-
-<div>
+<!-- <div>
   <section class="scrollButton demo">
     <a href="#inventorySection"><span></span>Scroll</a>
   </section>
-</div>
+</div> -->
 
 <div id = 'inventorySection' class = 'inventorySection'>
   <div class = 'inventoryListContainer'>
-    <div style='padding-top: 100px;font-size: 25px;margin-left: 30px;font-weight: 600;'> Shop </div>
+    <div style='padding-top: 50px;font-size: 25px;margin-left: 30px;font-weight: 600;'> Shop </div>
     <div class='inventoryContainer'>
       <div class='inventoryViewContainer'>
         <div class='inventoryView'>1
@@ -250,48 +223,82 @@
   </div>
 </div>
 
-<div>
+<!-- <div>
+  <section class="scrollButton demo">
+    <a href="#aboutMeContainer"><span></span>Scroll</a>
+  </section>
+</div> -->
+
+
+<div id = 'aboutMeContainer' class = 'aboutMeContainer'>
+    <div class = 'aboutMeInnerContainer'>
+      <div class = 'aboutMeContentContainer'>
+        <div class = 'aboutMePhotoContainer'>
+          <img class = 'aboutMePhoto' src="AboutMe/placeholder.jpg">
+        </div>
+      </div>
+      <div class = 'aboutMeContentContainer'>
+        <div class = 'aboutMeContentTitle'>
+          <span class = 'aboutMeSpan'> Lorem ipsum </span>
+        </div>
+        <div class = 'aboutMeContentContent'>
+          <span class = 'aboutMeSpan'>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed nisi mauris. Donec mollis nunc eget purus auctor, vitae pulvinar lectus molestie. Pellentesque eget malesuada neque. Nam eu sapien id orci luctus elementum. Vivamus malesuada tortor et molestie bibendum. Nullam nisi quam, pellentesque nec lectus at, placerat rutrum neque. Nam dignissim consectetur eros, nec ullamcorper leo lobortis viverra. Aliquam mollis erat ac eros tincidunt eleifend. Phasellus fermentum neque vitae eros suscipit, at placerat erat fermentum.
+          </span>
+        </div>
+      </div>
+    </div>
+</div>
+
+<!-- <div>
   <section class="scrollButton demo">
     <a href="#contactUsSection"><span></span>Scroll</a>
   </section>
-</div>
+</div> -->
 
 <div id = 'contactUsSection' class = 'contactUsSection'>
-  <div class = 'contactUsBoundary shadow'>
+  <div class='contactUsBoundary bg-dark'>
     <div class='contactUsContainer'>
+      <div class='generalInfoContainer'>
+        <div class='emailUsTitle bg-gray-light'>
+          CONTACT US
+        </div>
+        <div class="divider divider1" style="margin:0 0 25px 0 !important;"></div>
+        <div class='generalInfoCell'>
+          <div class='generalInfoCellContent'>
+            lorem@gmail.com
+          </div>
+          <div class='generalInfoCellContent'>
+            000.000.0000
+          </div>
+        </div>
+        <div class='generalInfoSocialMedia'>
+          <div style='width: 100%'>
+            <img style='padding:2%;' src='contactUs/fb.svg'>
+            <img style='padding:2%;' src='contactUs/wechat.svg'>
+          </div>
+        </div>
+        <div class='emailUsRestSection'>
+        </div>
+      </div>
       <div class='emailUsContainer'>
-        <div class='emailUsTitle'>
-          Contact Us
-        </div>
-        <div class='emailUsIntro'>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-        </div>
         <div class='emailUsEmailSection'>
           <div class='emailUsEmailDiv1'>
             <div class='emailUsNameInput'>
-              <div class='div1InputTitle'>
-                NAME: <span class='spanAsterisk'> * </span>
-              </div>
               <div class='div1TextArea'>
-                <textarea rows='1' class='emailUsTextArea div1EmailUsTextArea'></textarea>
+                <textarea rows='1' class='emailUsTextArea div1EmailUsTextArea' placeholder='Your Name'></textarea>
               </div>
             </div>
-            <div class='emailUsEmailInputMargin'>
-            </div>
+          </div>
+          <div class='emailUsEmailDiv1'>
             <div class='emailUsEmailInput'>
-              <div class='div1InputTitle'>
-                EMAIL: <span class='spanAsterisk'> * </span>
-              </div>
               <div class='div1TextArea'>
-                <textarea rows='1' class='emailUsTextArea div1EmailUsTextArea'></textarea>
+                <textarea rows='1' class='emailUsTextArea div1EmailUsTextArea' placeholder='Your Email'></textarea>
               </div>
             </div>
           </div>
           <div class='emailUsEmailDiv2'>
             <div class='emailUsMessageInput'>
-              <div class='emailUsMessageTitle'>
-                MESSAGE: <span class='spanAsterisk'> * </span>
-              </div>
               <div class='emailUsMessageContent'>
                 <textarea class='emailUsTextArea div2EmailUsTextArea'></textarea>
               </div>
@@ -301,42 +308,8 @@
             </div>
           </div>
         </div>
-        <div class='emailUsRestSection'>
-        </div>
-      </div>
-      <div class='generalInfoContainer'>
-        <div class='generalInfoCell'>
-          <div class='generalInfoCellTitle'>
-            Email
-          </div>
-          <div class='generalInfoCellContent'>
-            lorem@gmail.com
-          </div>
-        </div>
-        <div class='generalInfoCell'>
-          <div class='generalInfoCellTitle'>
-            Telephone
-          </div>
-          <div class='generalInfoCellContent'>
-            +1 000 000-0000
-          </div>
-        </div>
-        <div class='generalInfoCell'>
-          <div class='generalInfoCellTitle'>
-            WeChat
-          </div>
-          <div class='generalInfoCellContent'>
-            lorem
-          </div>
-        </div>
-        <div class='generalInfoSocialMedia'>
-          <div style='padding-top: 20%; width: 100%'>
-            <img style='padding:2%;' src='contactUs/fb.svg'>
-            <img style='padding:2%;' src='contactUs/wechat.svg'>
-          </div>
-        </div>
-        <div class='generalInfoRestSection'>
-        </div>
+    <!--     <div class='emailUsRestSection'>
+        </div> -->
       </div>
     </div>
   </div>

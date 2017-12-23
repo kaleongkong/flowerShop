@@ -9,18 +9,20 @@
 }
 
 .contactUsBoundary {
-  width: 750;
-  height: 500;
+  width: 100%;
+  height: 320px;
   position: relative;
   display: inline-block;
-  text-align: left;
+  text-align: center;
 }
 
 .contactUsContainer {
-  width: 750;
+  width: 100%;
   height: 450;
   position: relative;
   display: inline-block;
+  text-align: left;
+  max-width: 1000px;
 }
 
 .emailUsContainer {
@@ -40,15 +42,13 @@
   width: 20%;
   height: 100%;
   padding: 2.5%;
-  background: white url(./corgi.svg);
-  background-repeat: space;
   position: relative;
   display: inline-block;
 }
 
 .generalInfoCell {
   width: 100%;
-  height: 15%;
+  height: 13%;
   position: relative;
   display: inline-block;
 }
@@ -72,7 +72,7 @@
 
 .generalInfoSocialMedia {
   width: 100%;
-  height: 30%;
+  height: 15%;
   position: relative;
   display: inline-block;
 }
@@ -86,9 +86,9 @@
 
 .emailUsTitle {
   width: 100%;
-  height: 10%;
-  font-size: 30px;
-  color: rgb(30,65,90);
+  height: 18%;
+  font-size: 25px;
+  color: #333333;
   position: relative;
   display: inline-block;
 }
@@ -109,14 +109,14 @@
 
 .emailUsRestSection {
   width: 100%;
-  height: 15%;
+  height: 4%;
   position: relative;
   display: inline-block;
 }
 
 .emailUsEmailDiv1 {
   width: 100%;
-  height: 35%;
+  height: 25%;
   position: relative;
   display: inline-block;
 }
@@ -132,8 +132,7 @@
 
 .emailUsMessageInput {
   width: 100%;
-  height: 70%;
-  padding-top: 3%;
+  height: 60%;
   position: relative;
   display: inline-block;
 }
@@ -157,7 +156,7 @@
   width: 99%;
   font-size: 16px;
   padding: 1%;
-  border-radius: 4px;
+  border-radius: 2px;
   box-shadow: 0 0 0 1px lightslategrey;
   border: 5px solid transparent;
   position: relative;
@@ -192,7 +191,6 @@
 
 .emailUsSendButton {
   z-index: 1;
-  top: 10px;
 
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -233,7 +231,7 @@
 }
 
 .emailUsNameInput {
-  width: 44%;
+  width: 100%;
   height: 100%;
   /*position: relative;
   display: inline-block;*/
@@ -263,7 +261,7 @@
 }
 
 .emailUsEmailInput {
-  width: 44%;
+  width: 100%;
   height: 100%;
   /*position: relative;
   display: inline-block;*/
@@ -276,4 +274,28 @@
   height: 100%;
   position: relative;
   display: inline-block;
+}
+
+.divider1 {
+    clear: both;
+    border-bottom: 1px solid #efefef;
+    margin: 60px 0;
+    height: 1px;
+}
+
+.divider {
+    display: block;
+    width: 100%;
+    height: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.bg-dark {
+    background: #28292A;
+    color: #B6B6B6;
+}
+
+.bg-gray-light {
+  color: #D8D8D8;
 }

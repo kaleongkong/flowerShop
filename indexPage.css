@@ -57,7 +57,7 @@ body {
 .inventorySection {
   clear: both;
   height: 100%;
-  background: white;
+  background: #F5E6BA;
   position: relative;
   /*text-align: center;*/
 }

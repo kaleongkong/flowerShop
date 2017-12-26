@@ -7,13 +7,12 @@ body {
 }
 
 .white-mask {
-  position: relative;
+  position: absolute;
   background: white;
   opacity: 0.6;
   z-index: -1;
   width: 100%;
   height: 100%;
-  top:-750px;
 }
 
 .mainPageContainer {
@@ -31,6 +30,7 @@ body {
 .newMainPageBg {
   z-index: -2;
   width: 120%;
+  min-width: 1100px;
 }
 
 .mainPageBg {
@@ -71,6 +71,7 @@ body {
   position: relative;
   left: 50%;
   transform: translateX(-50%);
+  top: -100px;
 }
 
 .inventoryViewContainer {
@@ -89,7 +90,6 @@ body {
 .contactUsSection {
   position: relative;
   text-align: center;
-  top:-750px;
   /*padding-top: 150px;*/
   /*padding-bottom: 150px;*/
 }
@@ -106,7 +106,6 @@ body {
   position: relative;
   right: 0px;
   width: 100%;
-  top:-750px;
 }
 
 .text-color {

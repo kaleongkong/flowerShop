@@ -4,26 +4,26 @@ a{
 
 /* unvisited link */
 a:link {
-  color: #F5E6BA;
+  color: #F6EEF6;
 }
 
 .navShopName a:link, .navShopName a:hover{
   font-size: 18px;
-  color: #452806;
+  color: #ED1152;
 }
 
 /* visited link */
 .navListItem a:visited {
-  color: #F5E6BA;
+  color: #F6EEF6;
 }
 
 .navShopName a:visited {
-  color: #452806;
+  color: #ED1152;
 }
 
 /* mouse over link */
 .navListItem a:hover {
-  color: #452806;
+  color: #ED1152;
   text-shadow: 1px 1px grey;
 }
 
@@ -42,7 +42,7 @@ a:link {
   top: 0px;
   padding-top: 15px;
   padding-bottom: 10px;
-  background: #BC5B10;
+  background: #E784A9;
 }
 
 .navBar{

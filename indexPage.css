@@ -63,7 +63,7 @@ body {
 .inventorySection {
   clear: both;
   height: 100%;
-  background: #F5E6BA;
+  background: #F6EEF6;
   position: relative;
   /*text-align: center;*/
 }
@@ -115,9 +115,9 @@ body {
 }
 
 .text-color {
-  color: #452806;
+  color: #ED1152;
 }
 
 .title-color {
-  color: #BC5B10;
+  color: #E784A9;
 }

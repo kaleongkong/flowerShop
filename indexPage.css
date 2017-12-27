@@ -39,7 +39,13 @@ body {
   position: relative;
   /* horizontally align itself to the center*/
   display: inline-block;
-  height: 550px;
+  height: 750px;
+}
+
+@media screen and (max-width: 1600px){
+  .mainPageBg {
+    height: 550px;
+  }
 }
 
 .header {

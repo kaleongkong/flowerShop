@@ -40,6 +40,7 @@ body {
   /* horizontally align itself to the center*/
   display: inline-block;
   height: 750px;
+  z-index: -1;
 }
 
 @media screen and (max-width: 1600px){
@@ -63,7 +64,6 @@ body {
 .inventorySection {
   clear: both;
   height: 100%;
-  background: #F6EEF6;
   position: relative;
   /*text-align: center;*/
 }
@@ -114,10 +114,10 @@ body {
   width: 100%;
 }
 
-.text-color {
-  color: #ED1152;
+.hidden {
+  opacity: 0;
 }
 
-.title-color {
-  color: #E784A9;
+.transparent {
+  opacity: 0.5;
 }

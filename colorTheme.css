@@ -1,0 +1,49 @@
+/*
+deep
+*/
+
+.title-color {
+  color: #E784A9;
+}
+
+.title-bg-color {
+  background: #E784A9;
+}
+
+/*
+light
+*/
+
+/* unvisited link */
+a:link {
+  color: #F6EEF6;
+}
+
+/* visited link */
+.navListItem a:visited {
+  color: #F6EEF6;
+}
+
+.inventorySection {
+  background: #F6EEF6;
+}
+
+/*
+neutral
+*/
+.text-color {
+  color: #ED1152;
+}
+
+.navShopName a:link, .navShopName a:hover{
+  color: #ED1152;
+}
+
+.navShopName a:visited {
+  color: #ED1152;
+}
+
+/* mouse over link */
+.navListItem a:hover {
+  color: #ED1152;
+}

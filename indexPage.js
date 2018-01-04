@@ -3,6 +3,7 @@ window.onload = function(){
   mainInventoryContainerLogic();
   resizeinventoryListContainer();
   scrollDownButtonMainLogic();
+  contactUs();
 
   window.addEventListener("resize", function(){
     resizeinventoryListContainer();

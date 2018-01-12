@@ -42,7 +42,7 @@ window.onload = function(){
     var name = document.getElementsByClassName("emailUsTextArea")[0].value;
     var email = document.getElementsByClassName("emailUsTextArea")[1].value;
     var content = document.getElementsByClassName("emailUsTextArea")[2].value;
-    xhttp.open("GET", "http://localhost:3000/contact_us/send?name=" + name + "&email=" + email + "&content=" + content, true);
+    xhttp.open("GET", "https://flowershop-server.herokuapp.com/contact_us/send?name=" + name + "&email=" + email + "&content=" + content, true);
     xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
     xhttp.send("name=" + name + "&email=" + email + "&content=" + content);
   });
